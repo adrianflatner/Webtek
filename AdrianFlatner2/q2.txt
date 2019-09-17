@@ -1,0 +1,19 @@
+Questions 2
+
+Why does inline style CSS override rules defined in style elements and external stylesheets?
+    The inline style has higher priority than internal and external stylesheets. 
+    This way you can change single elements that already has a style from other stylesheets.
+
+Give a brief example of when to use ID ( #id ) and when to use classes ( .class ) in CSS.
+    IDs are for elements that are unique. This could be a single picture or a main title. 
+    Classes are for elements with the same style, like buttons.
+
+What does RGBA mean and what colors can you express with it?
+    Red, green, blue, alpha. 24 bits RGB colors, and additionional 8 bit value for transparency.
+
+Why do we include CSS files inside the head element and not inside the body element?
+    To try and keep the CSS off the critical path by downloading it as quick as possible. 
+    This way the page loads faster(Speeds up rendering).
+
+What CSS selector matches all the p elements inside the article element in the following HTML?
+    Article, p.

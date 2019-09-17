@@ -1,0 +1,41 @@
+body {
+    background-color: #e6f9ff;
+    width: 800px;
+}
+
+h1 {
+    color: #0099e6;
+    text-align: left;
+    font-family: helvetica
+}
+
+h2 {
+    color: #000000;
+    text-align: left;
+    font-family: helvetica
+}
+h3 {
+    color: #000000;
+    text-align: left;
+    font-family: helvetica
+}
+h4 {
+    color: #000000;
+    text-align: left;
+    font-family: helvetica
+}
+
+p {
+    font-family: verdana, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+b{
+    font-family: verdana, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+img{
+    width: 150px; 
+    border-style: solid;
+}
