@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Income greather than 500 000</title>
+    <meta charset="UTF-8">
+    <script src="taxForms.js"></script>
+  </head>
+  <body>
+    <script>
+        let amount = 500000
+        function higherIncome(amount){
+          for(var i=0;i<taxForms.length;i++){
+            if (taxForms[i].income >= amount){
+              console.log(taxForms[i].realName);
+            }
+          }
+        }
+
+      higherIncome(amount)
+    </script>
+  </body>
+</html>
